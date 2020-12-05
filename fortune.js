@@ -18,7 +18,6 @@ let click = button.onclick = function() {
     } else { 
       return null;
     }
-   console.log(randomNumber);
 }
 
 let message = document.getElementById('goodbye-message');
