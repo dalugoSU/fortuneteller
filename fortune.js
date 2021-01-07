@@ -3,7 +3,7 @@ we have ball. Ball checks number between 1-10. Number interval returns asnwer. *
 
 var button = document.getElementById('FortuneButton');
 
-let click = button.onclick = function() {
+let click = button.onclick = function = () => {
     let randomNumber = Math.floor(Math.random()*11);
     if (randomNumber >= 0 && randomNumber <= 2) {
         alert('Rightly so!')
@@ -21,6 +21,6 @@ let click = button.onclick = function() {
 }
 
 let message = document.getElementById('goodbye-message');
-let newMess =  message.onclick = function() {
+let newMess =  message.onclick = function = () => {
     document.getElementById('goodbye-message').innerHTML = `I hope your fortune was of your liking...`
 };
